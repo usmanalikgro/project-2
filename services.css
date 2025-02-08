@@ -1,0 +1,48 @@
+#services-tab > a{
+    color:#63E6BE;
+    font-weight: bold;
+}
+#services-tab > a:hover{
+    color:#fff;
+}
+.srv-section{
+    background-color:#ecf0f1;
+}
+.list{
+    background-color: #fff;
+}
+.list ul{
+    list-style-type: none;
+}
+.list > ul  li >a{
+    color:gray;
+    font-size:14px;
+} 
+.list > ul  li >a:hover{
+    color:#63E6BE;
+}
+.list > ul  li >i{
+    font-size:13px;
+    padding:7px 20px;
+}
+.list > h6{
+    padding-left:20px;
+}
+
+.list .second-ul{
+    padding-left:20px;
+}
+.card-list >h6{
+    color:gray;
+    font-weight:700;
+}
+
+.input-icons{
+    width:100%;
+}
+
+.srv-card{
+    height:400px;
+}
+
+

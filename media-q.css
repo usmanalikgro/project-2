@@ -1,0 +1,139 @@
+/* fonttttttt */
+@media (max-width:1358px){
+    .main-logo{
+        font-size:2.3rem;
+    }
+}
+
+@media (max-width:1070px){
+    .main-logo{
+        font-size:2rem;
+    }
+}
+
+
+
+
+@media (max-width:1020px) {
+
+    .h-burger i {
+        display: block;
+    }
+
+    .nav-list .menu>li {
+        display:block !important;
+        padding: 30px 0 !important;
+    }
+
+    .nav-list{
+        justify-content:start !important;    
+    }
+    nav{
+        height:400px;
+    }
+    nav .row {
+        flex-direction: column;
+    }
+
+    .h-burger{
+        position: absolute;
+        top: 30px;
+        right: 2%;
+    }
+    .h-nav-resp{
+        height:90px;
+    }
+    .v-resp{
+       display: none;
+    }
+    .login-btn{
+        position:absolute;
+        top:10px;
+        right:6%;
+    }
+    #home-tab a{
+        margin-left:-20px;
+    }
+   
+
+
+}
+
+
+
+@media (max-width:992px) {
+    .srv-card .card{
+        width:100% !important;
+        height:100% !important;
+    }
+    .srv-card .card img{
+        width:100% !important;
+        height:75% !important;
+    }
+    .content .card {
+        height: 90% !important;
+        width: 100% !important;
+    }
+
+    .slider .card {
+        height: 100% !important;
+    }
+
+    .last-content .card {
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .main-logo{
+        font-size:1.6rem;
+    }
+    #main-start h5{
+        font-size:1rem;
+    }
+    .last-main i{
+        font-size:1rem;
+    } 
+    .last-main span{
+        font-size:1.2rem;
+    } 
+}
+
+
+
+
+@media (max-width:767px) {
+    .content .card img {
+        height: 80% !important;
+    }
+
+    .content .card {
+        height: 95% !important;
+    }
+    .nav-list ul li a{
+        font-size:smaller;
+    }
+    .login-btn{
+        margin-right:15px;
+    }
+    .main-logo{
+        font-size:1.2rem;
+    }
+    #main-start h5{
+        font-size:0.8rem;
+    }
+    .last-main i{
+        font-size:1rem;
+    } 
+    .last-main span{
+        font-size:1.1rem;
+    } 
+    .explore-t{
+        font-size: 1rem;
+    }
+    .record p{
+        font-size: 1rem;
+        flex-wrap: wrap;
+    }
+    
+
+}
+

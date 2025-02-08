@@ -1,0 +1,44 @@
+
+#tools-tab > a{
+    color:#63E6BE;
+    font-weight: bold;
+}
+#tools-tab > a:hover{
+    color:#ffff;
+}
+
+.my-card img{
+    width:100%;
+    height:100%;
+    border-radius:10%;
+    transition:0.5s;
+}
+.my-card img:hover{
+    transform:scale(1.1);
+}
+
+.tools-section #heading-1{
+    color:#e74c3c;
+}
+.tools-section #heading-2{
+    color:#f39c12;
+}
+.tools-section #heading-3{
+    color:#2ecc71;
+}
+.tools-section #heading-4{
+    color:#0abde3;
+}
+
+.heat{
+    animation-name: usman;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes usman{
+    from{margin-left:30px;}
+    to{margin-left:0px;}
+}
+
+
